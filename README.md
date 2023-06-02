@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<h4 align="center"> 
+	<img alt="Olá Mundo" title="#OlaMundo"/>
+</h4>
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Olá Mundo" title="#OlaMundo" src="./src/assets/readme.png" />
+</h1>
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+🚀 Olá mundo! é um blog pessoal para minha apresentação como desenvolvedor front-end especializado em React. Além disso o blog traz informações sobre diversas outras áreas e linguagens dentro da programação.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Exibe diversos posts sobre as lingaguens de programação;
+- [x] Possui uma apresentação sobre mim contando um pouco sobre meu inicio nessa área de tecnologia;
+- [x] Possibilidade de navegação entre as paginas utilizando o react-router-dom;
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Layout
 
-### `npm run build`
+O layout da aplicação está disponível no Figma:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a href="https://www.figma.com/file/nDTrIQxTu6aldQG0o0iAbj/Ol%C3%A1%2C-Mundo!---Projeto-React%3A-router?type=design&node-id=38-716&t=aDBzafcIo25HiorD-0">
+  <img alt="Feito por Isadora Cardoso - Designer Multidisciplinar | Front End" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📝 Aprendizados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Foi utilizado uma SPA (Single Page Application), foi construída com a biblioteca React Router DOM, temos no projeto diversas páginas, diversas rotas. foi utilizado recurso de Rotas Aninhadas onde utilizamos um mesmo recurso em diferentes rotas. Foi criado a página não encontrada.
 
-### `npm run eject`
+Também foi criado diversos posts onde também conseguimos ver um recurso de rotas dinâmicas utilizando por exemplo hook use params. Falando em hook, também foi utilizado o hook use location, usei ele para estilizar os links de início dependendo da rotas que estava, pois precisava da informação dessa rota.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Utilizei também use location em um desafio. No card de qualquer artigo, se for até o final vocês verão estes cards de posts recomendados. Também foi utilizado para sempre retornar ao topo da página, com o componente do react router dom chamado scroll to top.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 🧭 Rodando a aplicação web (Modo desenvolvimento)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Clone este repositório
+$ git clone https://github.com/alura-cursos/ola-mundo/tree/aula-5
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd  ola-mundo
+# Instale as dependências
+$ npm install
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠 Tecnologias
 
-## Learn More
+As seguintes ferramentas foram usadas na construção do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### **Website**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **[React](https://reactjs.org/)**
+- **[React Router Dom](https://reactrouter.com/en/main)**
+- **[Sass](https://sass-lang.com/)**
 
-### Code Splitting
+#### **Utilitários**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Protótipo: **[Figma](https://www.figma.com/)** → **[Protótipo (Olá Mundo)](https://www.figma.com/file/nDTrIQxTu6aldQG0o0iAbj/Ol%C3%A1%2C-Mundo!---Projeto-React%3A-router?type=design&node-id=38-716&t=aDBzafcIo25HiorD-0")**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+  - Extensão: **[S7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)**
+- CSS Modules: **[CSS Modules](https://github.com/css-modules/css-modules)**
+- Documentação do React: **[React Documentation](https://create-react-app.dev/docs/adding-a-stylesheet/)**
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🦸 Autor
 
-### Making a Progressive Web App
+ <sub><b>Rafael Corrêa</b></sub></a> <a href="https://www.linkedin.com/in/correarafaelsantos/" title="Alura Space">🚀</a>
+ <br />
+👋🏽 [Entre em contato pelo Linkedin!](https://www.linkedin.com/in/correarafaelsantos/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
