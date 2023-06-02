@@ -1,10 +1,11 @@
 <h4 align="center"> 
-	<img alt="Olá Mundo" title="#OlaMundo"/>
+	<title="#OlaMundo"/>
 </h4>
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
  <a href="#-layout">Layout</a> •
+ <a href="#-Aprendizados">Layout</a> •
  <a href="#-tecnologias">Tecnologias</a> •
  <a href="#-autor">Autor</a> • 
  <a href="#user-content--licença">Licença</a>
@@ -16,15 +17,16 @@
 
 ## 💻 Sobre o projeto
 
-🚀 Olá mundo! é um blog pessoal para minha apresentação como desenvolvedor front-end especializado em React. Além disso o blog traz informações sobre diversas outras áreas e linguagens dentro da programação.
+🚀 Olá mundo! é um blog pessoal para minha apresentação como desenvolvedor front-end. Para o desenvolvimento deste projeto utilizei particularmente o React. Além disso o blog traz informações sobre diversas outras áreas e linguagens dentro da programação.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Exibe diversos posts sobre as lingaguens de programação;
+- [x] Exibe diversos posts sobre as linguagens de programação;
 - [x] Possui uma apresentação sobre mim contando um pouco sobre meu inicio nessa área de tecnologia;
 - [x] Possibilidade de navegação entre as paginas utilizando o react-router-dom;
+- [x] Criação de uma página SPA, com possibilidade de navegação entre os links;
 
 
 ## 🎨 Layout
